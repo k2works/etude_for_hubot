@@ -9,7 +9,10 @@
     "test": "eslint src && flow && mocha",
     "precommit": "yarn test",
     "prepush": "yarn test",
-    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "prod:build": "rimraf scripts && babel src -d scripts",
+    "prod:start": "pm2 start process.json",
+    "prod:stop": "pm2 stop process.json"
   },
   "dependencies": {
     "hubot": "^2.19.0",
@@ -36,6 +39,7 @@
     "chai": "^4.1.2",
     "co": "^4.6.0",
     "coveralls": "^3.0.0",
+    "cross-env": "^5.1.3",
     "eslint": "^4.18.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-compat": "^2.2.0",
@@ -50,6 +54,8 @@
     "jscoverage": "^0.6.0",
     "mocha": "^5.0.1",
     "mocha-lcov-reporter": "^1.3.0",
-    "nodeunit": "^0.11.2"
+    "nodeunit": "^0.11.2",
+    "pm2": "^2.10.1",
+    "rimraf": "^2.6.2"
   }
 }
