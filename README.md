@@ -130,6 +130,14 @@ yarn add --dev mocha chai hubot-test-helper co
 ```bash
 yarn add --dev husky
 ```
+  
+#### PM2
+  
+> PM2はNode用プロセスマネージャ。プロダクション環境でプロセスを維持する、そしてプロセスのモニタリングと管理機能を提供する。
+  
+```bash
+yarn add --dev pm2 rimraf cross-env
+```
 
 ## 配置
 ### Heroku
@@ -166,3 +174,4 @@ yarn add --dev mocha-lcov-reporter coveralls istanbul
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)
 + [Hubotを使ってSlackへBotを投げる](https://qiita.com/shosho/items/057d7b67d1dd3a700554)
++ [Hubotをpm2でデーモン化@slack](https://qiita.com/ushio_s/items/cfc676dec1cedfe89f96)
