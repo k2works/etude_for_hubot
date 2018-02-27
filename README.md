@@ -128,6 +128,16 @@ yarn add --dev mocha chai hubot-test-helper co
 yarn add --dev husky
 ```
 
+## 配置
+### Heroku
+  
+```bash
+ heroku create etude-for-hubot
+ heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE --app "etude-for-hubot"
+ 
+```
+
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)
++ [Hubotを使ってSlackへBotを投げる](https://qiita.com/shosho/items/057d7b67d1dd3a700554)
