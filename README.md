@@ -22,6 +22,13 @@ Hubotアプリケーションのための練習プログラム集
 1. [開発](#開発 )
   
 ## 構築
+
+```bash
+docker-compose up -d
+docker-compose exec app bash
+yarn install
+yarn runt test
+```
   
 ### 01 - Node, Yarn, and package.json
   
@@ -110,7 +117,7 @@ yarn add --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
 #### Mocha
     
 ```bash
-yarn add --dev moca chai hubot-test-helper co
+yarn add --dev mocha chai hubot-test-helper co
 ```
   
 #### Git Hooks with Husky
