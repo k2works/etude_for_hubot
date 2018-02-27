@@ -1,3 +1,7 @@
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
+
+
 # Etude for Hubot
   
 ---
@@ -133,9 +137,31 @@ yarn add --dev husky
   
 ```bash
  heroku create etude-for-hubot
- heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE --app "etude-for-hubot"
- 
+ heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE --app "etude-for-hubot" 
 ```
+
+### CircleCI
+  
+```bash
+mkdir .circleci
+touch .circleci/config.ym
+```
+  
+### Coveralls
+  
+```bash
+yarn add --dev blanket coveralls nyc
+```
+  
+### Bages
+  
+[shields.io](http://shields.io/ )
+  
+```text
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
+```
+  
 
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
