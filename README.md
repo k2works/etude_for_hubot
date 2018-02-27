@@ -1,3 +1,7 @@
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
+
+
 # Etude for Hubot
   
 ---
@@ -22,6 +26,13 @@ Hubotアプリケーションのための練習プログラム集
 1. [開発](#開発 )
   
 ## 構築
+
+```bash
+docker-compose up -d
+docker-compose exec app bash
+yarn install
+yarn runt test
+```
   
 ### 01 - Node, Yarn, and package.json
   
@@ -110,7 +121,7 @@ yarn add --dev flow-bin babel-preset-flow babel-eslint eslint-plugin-flowtype
 #### Mocha
     
 ```bash
-yarn add --dev moca chai hubot-test-helper co
+yarn add --dev mocha chai hubot-test-helper co
 ```
   
 #### Git Hooks with Husky
@@ -121,6 +132,38 @@ yarn add --dev moca chai hubot-test-helper co
 yarn add --dev husky
 ```
 
+## 配置
+### Heroku
+  
+```bash
+ heroku create etude-for-hubot
+ heroku config:set HUBOT_SLACK_TOKEN=xoxb-YOUR-TOKEN-HERE --app "etude-for-hubot" 
+```
+
+### CircleCI
+  
+```bash
+mkdir .circleci
+touch .circleci/config.ym
+```
+  
+### Coveralls
+  
+```bash
+yarn add --dev blanket coveralls nyc
+```
+  
+### Bages
+  
+[shields.io](http://shields.io/ )
+  
+```text
+[![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
+[![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
+```
+  
+
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)
++ [Hubotを使ってSlackへBotを投げる](https://qiita.com/shosho/items/057d7b67d1dd3a700554)
