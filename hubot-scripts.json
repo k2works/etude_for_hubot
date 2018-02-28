@@ -1,1 +1,9 @@
-[]
+[
+  "hubot-zabbix-notifier",
+  "aws.coffee",
+  "jenkins-notifier.coffee",
+  "jenkins.coffee",
+  "jira-issues.coffee",
+  "jira.coffee",
+  "list-jira-bugs.coffee"
+]
