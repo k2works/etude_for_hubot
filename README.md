@@ -168,10 +168,37 @@ yarn add --dev mocha-lcov-reporter coveralls istanbul
 [![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
 [![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
 ```
-  
+
+## 運用
+
+### Zabbix
+```bash
+yarn add hubot-zabbix-notifier
+```  
+
+### AWS
++ HUBOT_AWS_ACCESS_KEY_ID="xxxx" ※AWSのアクセスキー
++ HUBOT_AWS_SECRET_ACCESS_KEY="xxxx" ※AWSのシークレットアクセスキー
+
+```bash 
+yarn add underscore moment aws2js
+```
+
+### Jenkins
+
++ HUBOT_JENKINS_URL="https://jenkins.your.domain" ※利用するJenkinsサイト
++ HUBOT_JENKINS_AUTH="hirotaka:xxx" ※”ログインユーザ:パスワード"のフォーマット
+
+### Jira
++ HUBOT_JIRA_URL="https://hoge.atlassian.net/" ※利用するJIRAサイトのドメイン名
++ HUBOT_JIRA_USER="foo" ※JIRAユーザのログイン名。
++ HUBOT_JIRA_PASSWORD="xxx" ※JIRAユーザのパスワード。環境変数が見える環境の場合、hubot用に別ユーザを作ろう。
+
 
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)
 + [Hubotを使ってSlackへBotを投げる](https://qiita.com/shosho/items/057d7b67d1dd3a700554)
 + [Hubotをpm2でデーモン化@slack](https://qiita.com/ushio_s/items/cfc676dec1cedfe89f96)
++ [HubotとZabbixを連携すればワンオペ監視でも寂しくない ](http://www.atmarkit.co.jp/ait/articles/1412/19/news037.html)
++ [hubot-scriptsを使おう！](https://gist.github.com/koudaiii/5a53dd77e8f717171b63)
