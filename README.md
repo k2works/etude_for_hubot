@@ -168,10 +168,16 @@ yarn add --dev mocha-lcov-reporter coveralls istanbul
 [![CircleCI](https://img.shields.io/circleci/project/github/k2works/etude_for_hubot.svg)](https://circleci.com/gh/k2works/etude_for_hubot)
 [![Coverage Status](https://img.shields.io/coveralls/k2works/etude_for_hubot.svg?style=flat-square)](https://coveralls.io/github/k2works/etude_for_hubot?branch=master)
 ```
-  
+
+## 運用
+
+```bash
+yarn add hubot-zabbix-notifier
+```  
 
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)
 + [Hubotを使ってSlackへBotを投げる](https://qiita.com/shosho/items/057d7b67d1dd3a700554)
 + [Hubotをpm2でデーモン化@slack](https://qiita.com/ushio_s/items/cfc676dec1cedfe89f96)
++ [HubotとZabbixを連携すればワンオペ監視でも寂しくない ](http://www.atmarkit.co.jp/ait/articles/1412/19/news037.html)

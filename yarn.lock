@@ -2749,6 +2749,10 @@ hubot-test-helper@^1.8.1:
   dependencies:
     hubot ">=3.0.0 <10 || 0.0.0-development"
 
+hubot-zabbix-notifier@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/hubot-zabbix-notifier/-/hubot-zabbix-notifier-0.0.1.tgz#4cd4426d996f537d8f24a52a1dcc2658c476cd88"
+
 "hubot@>=3.0.0 <10 || 0.0.0-development":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/hubot/-/hubot-3.0.1.tgz#fe1bca4ece9c4f88f172047d63945b78d3623759"
