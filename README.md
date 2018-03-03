@@ -185,7 +185,6 @@ yarn add underscore moment aws2js
 ```
 
 ### Jenkins
-
 + HUBOT_JENKINS_URL="https://jenkins.your.domain" ※利用するJenkinsサイト
 + HUBOT_JENKINS_AUTH="hirotaka:xxx" ※”ログインユーザ:パスワード"のフォーマット
 
@@ -200,6 +199,16 @@ yarn add underscore moment aws2js
 ```bash
 yarn add https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz
 ```
+
+### GitHub
++ HUBOT_GITHUB_ORG="ORGANIZATION" ※githubのプライベートスペースを指定
++ HUBOT_GITHUB_REPO="ORGANIZATION/develop-repo" ※対象となるレポジトリを指定
++ HUBOT_GITHUB_TOKEN="xxx" ※githubの設定で取得したTOKEN
++ HUBOT_GITHUB_USER:="foo"
+
+```bash
+yarn add githubot date-utils gitio2 underscore.string 
+``` 
 
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)

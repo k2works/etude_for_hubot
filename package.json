@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "aws2js": "^0.8.3",
+    "date-utils": "^1.2.21",
+    "githubot": "^1.0.1",
+    "gitio2": "^3.1.0",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
     "hubot-docomo-dialogue": "https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz",
@@ -32,8 +35,9 @@
     "hubot-slack": "^4.4.0",
     "hubot-zabbix-notifier": "^0.0.1",
     "moment": "^2.20.1",
+    "request": "latest",
     "underscore": "^1.8.3",
-    "request": "latest"
+    "underscore.string": "^3.3.4"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
