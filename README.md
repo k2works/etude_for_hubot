@@ -202,3 +202,4 @@ yarn add underscore moment aws2js
 + [Hubotをpm2でデーモン化@slack](https://qiita.com/ushio_s/items/cfc676dec1cedfe89f96)
 + [HubotとZabbixを連携すればワンオペ監視でも寂しくない ](http://www.atmarkit.co.jp/ait/articles/1412/19/news037.html)
 + [hubot-scriptsを使おう！](https://gist.github.com/koudaiii/5a53dd77e8f717171b63)
++ [hubot-matteruser](https://github.com/loafoe/hubot-matteruser)
