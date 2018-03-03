@@ -2743,6 +2743,10 @@ hubot-diagnostics@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/hubot-diagnostics/-/hubot-diagnostics-0.0.2.tgz#a042b2cdc9fd8f01583e105658130a6d8b9af386"
 
+"hubot-docomo-dialogue@https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz":
+  version "1.1.1"
+  resolved "https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz#0ab79c14cb5808aad6e1b448b2ce8e3dc0d4894b"
+
 hubot-google-images@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/hubot-google-images/-/hubot-google-images-0.2.7.tgz#a8a1f9094d76830bf1931770888fab0dc0c11a4d"
@@ -4613,7 +4617,7 @@ request@2.81.0:
     tough-cookie "~2.3.0"
     tunnel-agent "~0.4.1"
 
-request@^2.73.0, request@^2.79.0:
+request@^2.73.0, request@^2.79.0, request@latest:
   version "2.83.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.83.0.tgz#ca0b65da02ed62935887808e6f510381034e3356"
   dependencies:

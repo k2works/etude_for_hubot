@@ -5,5 +5,6 @@
   "jenkins.coffee",
   "jira-issues.coffee",
   "jira.coffee",
-  "list-jira-bugs.coffee"
+  "list-jira-bugs.coffee",
+  "hubot-docomo-dialogue"
 ]

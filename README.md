@@ -194,6 +194,12 @@ yarn add underscore moment aws2js
 + HUBOT_JIRA_USER="foo" ※JIRAユーザのログイン名。
 + HUBOT_JIRA_PASSWORD="xxx" ※JIRAユーザのパスワード。環境変数が見える環境の場合、hubot用に別ユーザを作ろう。
 
+### DocomApi
++ DOCOMO_API_KEY="xxxxx"
+
+```bash
+yarn add https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz
+```
 
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
