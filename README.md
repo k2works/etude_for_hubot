@@ -210,6 +210,11 @@ yarn add https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz
 yarn add githubot date-utils gitio2 underscore.string 
 ``` 
 
+### Wikipedia
+```bash
+yarn add soupselect htmlparser
+```
+
 ## 参照
 + [HubotをES2015で書いてHerokuにデプロイする](http://dackdive.hateblo.jp/entry/2016/07/13/210000)
 + [Hubot test helper](https://github.com/mtsmfm/hubot-test-helper)

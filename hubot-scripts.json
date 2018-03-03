@@ -16,5 +16,7 @@
   "github-issues.coffee",
   "github-pulls.coffee",
   "github-search.coffee",
-  "github-status.coffee"
+  "github-status.coffee",
+  "wikipedia.coffee",
+  "weather.coffee"
 ]
