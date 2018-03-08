@@ -5,5 +5,18 @@
   "jenkins.coffee",
   "jira-issues.coffee",
   "jira.coffee",
-  "list-jira-bugs.coffee"
+  "list-jira-bugs.coffee",
+  "hubot-docomo-dialogue",
+  "github-activity.coffee",
+  "github-commit-link.coffee",
+  "github-commiters.coffee",
+  "github-commits.coffee",
+  "github-credentials.coffee",
+  "github-issue-link.coffee",
+  "github-issues.coffee",
+  "github-pulls.coffee",
+  "github-search.coffee",
+  "github-status.coffee",
+  "wikipedia.coffee",
+  "weather.coffee"
 ]
