@@ -170,6 +170,12 @@ yarn add --dev mocha-lcov-reporter coveralls istanbul
 ```
 
 ## 運用
+### ローカル実行
+.envに環境変数を設定する
+```bash
+source .env
+./bin/hubot.sh --adapter slack
+```
 
 ### Zabbix
 ```bash
